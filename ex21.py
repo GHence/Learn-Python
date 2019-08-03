@@ -28,4 +28,4 @@ print("Here is a puzzle.")
 
 what = add(age,subtract(height,multiply(weight,divide(iq,2))))  # -4391
 
-print("That becomes:",what," Can you do it bu hand?")
+print("That becomes:",what," Can you do it by hand?")

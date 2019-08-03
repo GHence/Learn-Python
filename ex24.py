@@ -1,5 +1,5 @@
 print("Let's practice everything!")
-print('Yos\'d need to know \'bout escapes with \\ that do:')
+print('You\'d need to know \'bout escapes with \\ that do:')
 print('\n newlines and \t tabs.')
 
 poem = """
@@ -24,6 +24,7 @@ def secret_formula(started):
     crates = jars / 100
     return jelly_beans, jars, crates
 
+
 start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 # remember that this is another way to format a string
@@ -37,4 +38,3 @@ print("We can also do that this way:")
 formula = secret_formula(start_point)
 # this is an easy way to apply a list to a format string
 print("we'd have {} beans,{} jars, and {} crates.".format(*formula))
-

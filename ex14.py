@@ -14,11 +14,11 @@ script , user_name = argv
 prompt = '>'
 
 print(f"Hi {user_name},I'm the {script} script.'")
-print("I'd like to ask ypu a few questions.")
+print("I'd like to ask you a few questions.")
 print(f"Do ypu like me {user_name}?")
 likes = input(prompt)
 
-print(f"Where do ypu live {user_name}?")
+print(f"Where do you live {user_name}?")
 lives = input(prompt)
 
 print("What kind of computer do you have?")
