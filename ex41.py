@@ -72,7 +72,7 @@ def convert(snippet, phrase):
 
         # fake class names
         for word in class_names:
-            result = result.replace("%%%",word,1)
+            result = result.replace("%%%",word,1)   # replace 函数  replace(old,new,max)  max最大不超过的次数
 
         # fake other names
         for word in other_names:
@@ -85,6 +85,7 @@ def convert(snippet, phrase):
         results.append(result)
 
     return results
+
 
 # keep going until they hit CTRL-D
 try:

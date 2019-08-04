@@ -1,3 +1,7 @@
+'''
+隐式继承
+'''
+
 class Parent(object):
 
     def implicit(self):

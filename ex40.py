@@ -2,14 +2,16 @@
  第一个类的例子
 '''
 
+
 class Song(object):
 
-    def __inti__(self,lyrics):
+    def __init__(self, lyrics):
         self.lyrics = lyrics
 
     def sing_me_a_song(self):
         for line in self.lyrics:
             print(line)
+
 
 happy_baby = Song(["Happy birthday to you",
                    "I don't want to get sued",

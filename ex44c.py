@@ -3,17 +3,20 @@
 父类Parent里的版本
 '''
 
+
 class Parent(object):
 
     def altered(self):
         print("PARENT altered()")
 
+
 class Child(Parent):
 
     def altered(self):
         print("CHILD, BEFORE PARENT altered()")
-        super(Child, self).altered()
+        super(Child, self).altered()   # 采用super调用父类中的方法
         print("CHILD, AFTER PARENT altered()")
+
 
 dad = Parent()
 son = Child()
